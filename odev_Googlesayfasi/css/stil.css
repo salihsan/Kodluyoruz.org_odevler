@@ -1,0 +1,137 @@
+ nav{
+     margin-top:35vh;
+ }
+ 
+ .SDkEP {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+#searchform.big .RNNXgb {
+    width: 582px;
+}
+.RNNXgb {
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto ;
+    width: 482px;
+}
+ .hsuHs {margin: auto;}
+           
+
+.wFncld {
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+.iblpc {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.z1asCe {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+.hpuQDe {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.HPVvwb {
+    background: url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+.hpuQDe{flex:1 0 auto;
+    display:flex;
+    cursor:pointer;
+    align-items:center;
+    justify-content: flex-end;
+    border:0;
+    background:transparent;
+    outline:none;
+    padding:0 8px;
+    width:24px;
+    line-height:44px
+}
+.minidiv .hpuQDe{line-height:32px}
+.minidiv .HPVvwb{background-size:20px 20px;height:20px;width:16px}
+
+
+#searchform.big .FPdoLc {
+    width: 571px;
+}
+.tfB0Bf {
+    height: 70px;
+}
+.FPdoLc {
+    padding-top: 18px;
+    position: absolute;
+    top: 53px;
+    width: 487px;
+    z-index: 0;
+}
+
+.tfB0Bf input[type="submit"] {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.jhp input[type="submit"], .gbqfba {
+    height: 36px;
+    line-height: 27px;
+}
+.jhp input[type="submit"], .sbdd_a input, .gbqfba {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
