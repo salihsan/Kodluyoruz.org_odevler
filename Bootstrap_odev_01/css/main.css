@@ -1,0 +1,21 @@
+.lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.clear{clear: both;}
+.container .card{
+    float: left;
+    margin-right: 10px;
+}
+.urun-hr{
+    margin:20px auto;
+    width:10vw;
+    border: 3px solid #8d1ada;
+    box-shadow: 2px 2px 5px -1px  #4a0579;
+}
+.bg-jumbutron{
+    background-color:#E9ECEF;
+}
+.h2-title{
+    color: #adc861;
+}

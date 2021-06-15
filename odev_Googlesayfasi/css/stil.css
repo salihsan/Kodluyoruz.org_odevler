@@ -135,3 +135,109 @@
     padding: 0 16px;
     text-align: center;
 }
+
+
+/* ========================Footer======================================== */
+ .ayzqOc {position: relative }
+   .EzVRq {
+        display: block;
+        padding: 15px;
+        white-space: nowrap
+    }
+   a.EzVRq,
+    button.EzVRq {
+        color: #70757a
+    }
+   button.EzVRq {
+        cursor: pointer;
+        width: 100%;
+        text-align: left
+    }
+   button.EzVRq:hover,
+    button.EzVRq:active {
+        text-decoration: underline
+    }
+   .Qff0zd {
+        display: none;
+        position: absolute;
+        list-style: none;
+        background: #fff;
+        border: 1px solid #70757a
+    }
+/* ========================Footer======================================== */
+        .c93Gbe {
+                background: #f2f2f2
+            }
+    
+            .uU7dJb {
+                padding: 15px 30px;
+                border-bottom: 1px solid #dadce0;
+                font-size: 15px;
+                color: rgba(0, 0, 0, .54)
+            }
+    
+            .SSwjIe {
+                padding: 0 20px
+            }
+    
+            .KxwPGc {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between
+            }
+    
+            @media only screen and (max-width:1200px) {
+                .KxwPGc {
+                    justify-content: space-evenly
+                }
+            }
+    
+            .pHiOh {
+                display: block;
+                padding: 15px;
+                white-space: nowrap
+            }
+    
+            a.pHiOh {
+                color: #70757a
+            }
+    
+            .ktLKi {
+                white-space: nowrap;
+                vertical-align: top
+            }
+    
+            .Pb9hCb {
+                height: 14px;
+                margin-right: 6px
+            }
+    
+            .ssOUyb {
+                order: 2
+            }
+    
+            @media only screen and (max-width:1200px) {
+                .ssOUyb {
+                    order: 0;
+                    width: 100%;
+                    justify-content: center
+                }
+            }
+    
+            .waLeGd .ssOUyb {
+                order: 0;
+                width: 100%;
+                justify-content: center
+            }
+    
+            .AghGtd {
+                justify-content: flex-start;
+                min-width: 30%;
+                order: 1
+            }
+    
+            .iTjxkf {
+                justify-content: flex-end;
+                min-width: 30%;
+                order: 3
+            }
