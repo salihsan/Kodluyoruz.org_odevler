@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0 auto;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background: #000;
+  color: #ffffff;
+  text-align: center;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 20vh;
+  z-index: -1;
+}
+
+    </style>
+</head>
+<body>
+    <canvas id="Canvas"></canvas>
+
+    <script type="text/javascript">
+    var cwidth = 0;
+        var cheight = 0;
+        var createCounter = 0;
+
+        var c = document.getElementById("Canvas");
+        var ctx = c.getContext("2d");
+
+        window.onresize = function () { resize(); }
+
+        resize();
+        var maxOff;
+        function resize() {
+
+            cwidth = window.innerWidth;
+            cheight = window.innerHeight;
+            c.width = cwidth;
+            c.height = cheight;
+            dots = [];
+            createCounter = Math.ceil((cwidth * cheight) / 8000);
+            maxOff = Math.sqrt(Math.pow(cwidth, 2) + Math.pow(cheight, 2)) / 2;
+        }
+        var dots = [];
+
+        function createDot() {
+
+            var dot = {};
+            dot.x = cwidth / 2;
+            dot.y = cheight / 2;
+            dot.angle = Math.floor(Math.random() * 3) * 2;
+            dot.counter = -1;
+            dot.color = "rgb(50," + Math.floor(Math.random() * 100 + 150) + "," + Math.floor(Math.random() * 250) + ")";
+
+            dots.push(dot)
+        }
+
+        var Yoff = 4.35;
+        var Xoff = 5;
+        var size = 5;
+
+        var lastRun = 0;
+        Run();
+        function Run() {
+
+            if (dots.length < createCounter) { createDot(); }
+
+            for (let dot of dots) {
+
+                var lineW = (Math.sqrt(Math.pow(Math.abs((cwidth / 2) - dot.x), 2) + Math.pow(Math.abs((cheight / 2) - dot.y), 2)) / maxOff) * 10 + 0.5;
+
+                ctx.beginPath();
+                ctx.arc(dot.x, dot.y, lineW, 0, 2 * Math.PI);
+                ctx.fillStyle = dot.color;
+                ctx.fill();
+
+                dot.counter = (dot.counter + 1) % size;
+                if (dot.counter == 0) {
+                    var che = ((Math.round(Math.random()) * 4) + 1);
+                    dot.angle = Math.round((dot.angle + che) % 6)
+                }
+
+                dot.x += (Math.round((Math.abs(dot.angle - 3) - 1.5) * 1.3) * Xoff) / 2;
+                dot.y += Math.min(1, Math.max(-1, ((3 - dot.angle) % 3))) * Yoff;
+
+                if ((dot.x < 0) || (dot.x > cwidth) || (dot.y < 0) || (dot.y > cheight)) {
+
+                    var newDot = dots[Math.floor(Math.random() * dots.length)];
+
+                    dot.x = newDot.x;
+                    dot.y = newDot.y;
+                    dot.angle = newDot.angle;
+                    dot.counter = newDot.counter;
+                    //dot.color = newDot.color;
+                }
+            }
+            ctx.fillStyle = "rgba(0,0,0,0.1)";
+            ctx.fillRect(0, 0, cwidth, cheight);
+
+            //requestAnimationFrame(Run);
+            setTimeout(function () { Run(); }, 50);
+
+        }
+
+    </script>
+</body>
+</html>
