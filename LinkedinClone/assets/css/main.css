@@ -1,6 +1,6 @@
 .navbarbg {
-  height: 55px;
-  background-color: white;
+  height: 60px !important;
+  background-color: rgba(255, 255, 255, 0.815) !important;
 }
 
 input.searche {
@@ -21,13 +21,25 @@ input.searche::placeholder {
 .body {
   background-color: #f3f2ef;
 }
+.dikeyortala{
+  display:flex !important;
+  justify-items: center !important;
 
+}
+.dortrem{
+  position:sticky;
+  overflow: visible;
+  margin-top:4rem;
+}
 .menutext {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: gray;
-  margin-top: 5px;
-  font-weight: lighter;
+    align-items: center;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
 }
 
 .menutext:hover {
