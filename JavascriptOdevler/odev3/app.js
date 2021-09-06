@@ -72,3 +72,22 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+
+var menulist = [];
+function menuData() {
+  return fetch(menu).then((resp) => resp.json());
+}
+
+function setMenuList(data) {
+  var menulist = document.querySelector(".menuGoster");
+  menulist.innerHTML += "";
+}
+
+console.log(menulist);
+// function getData() {
+//   return fetch(menu).then((resp) => resp.json());
+// }
+function setmenus(menuList) {
+  var liste = document.querySelector(".menu-items");
+}
+console.log(liste);
