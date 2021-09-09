@@ -1,6 +1,4 @@
-package odev1;
-
-import org.w3c.dom.ls.LSOutput;
+package odevler;
 
 import java.util.Scanner;
 

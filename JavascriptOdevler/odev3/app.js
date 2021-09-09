@@ -74,20 +74,13 @@ const menu = [
 ];
 
 var menulist = [];
-function menuData() {
-  return fetch(menu).then((resp) => resp.json());
+async function menuData() {
+  const resp = await fetch("menu");
+  return await resp.json();
 }
+console.log(menuData());
 
 function setMenuList(data) {
   var menulist = document.querySelector(".menuGoster");
-  menulist.innerHTML += "";
+  var liste = (menulist.innerHTML += "");
 }
-
-console.log(menulist);
-// function getData() {
-//   return fetch(menu).then((resp) => resp.json());
-// }
-function setmenus(menuList) {
-  var liste = document.querySelector(".menu-items");
-}
-console.log(liste);
