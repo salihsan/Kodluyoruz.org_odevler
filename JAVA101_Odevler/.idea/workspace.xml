@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/KullaniciGirisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/SınıfıGecmeDurumu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/KullaniciGirisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/KullaniciGirisi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/SwitchCaseHesapMakinesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/SwitchCaseHesapMakinesi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +44,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.KullaniciGirisi">
-    <configuration name="CemberAlaniVeCevresi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.CemberAlaniVeCevresi" />
-      <module name="JAVA101_Odevler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="odevler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SınıfıGecmeDurumu">
     <configuration name="KullaniciGirisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.KullaniciGirisi" />
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.KullaniciGirisi" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odevler.*" />
+          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,7 +63,20 @@
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odevler.*" />
+          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SınıfıGecmeDurumu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.SınıfıGecmeDurumu" />
+      <module name="JAVA101_Odevler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="SwitchCaseHesapMakinesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.SwitchCaseHesapMakinesi" />
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.SwitchCaseHesapMakinesi" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odevler.*" />
+          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,7 +102,7 @@
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odevler.*" />
+          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SınıfıGecmeDurumu" />
         <item itemvalue="Application.KullaniciGirisi" />
         <item itemvalue="Application.SwitchCaseHesapMakinesi" />
         <item itemvalue="Application.Manav" />
         <item itemvalue="Application.Vki" />
-        <item itemvalue="Application.CemberAlaniVeCevresi" />
       </list>
     </recent_temporary>
   </component>

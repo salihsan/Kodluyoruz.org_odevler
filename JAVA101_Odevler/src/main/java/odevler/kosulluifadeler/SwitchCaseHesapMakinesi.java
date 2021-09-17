@@ -1,4 +1,4 @@
-package odevler;
+package odevler.kosulluifadeler;
 
 import java.util.Scanner;
 
