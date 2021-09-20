@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/UcakBiletiHesapla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/UcakBiletiHesapla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/UcakBiletiHesapla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BurcunuBul">
+  <component name="RunManager" selected="Application.UcakBiletiHesapla">
     <configuration name="BurcunuBul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.BurcunuBul" />
       <module name="JAVA101_Odevler" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCaseHesapMakinesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.SwitchCaseHesapMakinesi" />
+    <configuration name="UcakBiletiHesapla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.UcakBiletiHesapla" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UcakBiletiHesapla" />
         <item itemvalue="Application.BurcunuBul" />
         <item itemvalue="Application.HavaSicakliginaGoreEtkinlik" />
         <item itemvalue="Application.SınıfıGecmeDurumu" />
         <item itemvalue="Application.KullaniciGirisi" />
-        <item itemvalue="Application.SwitchCaseHesapMakinesi" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +142,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JAVA101_Odevler$BurcunuBul.ic" NAME="BurcunuBul Coverage Results" MODIFIED="1632162141707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>odevler.kosulluifadeler.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JAVA101_Odevler$UcakBiletiHesapla.ic" NAME="UcakBiletiHesapla Coverage Results" MODIFIED="1632170830567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>odevler.kosulluifadeler.*</FILTER>
     </SUITE>
   </component>
