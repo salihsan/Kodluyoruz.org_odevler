@@ -38,7 +38,9 @@ public class BurcunuBul {
                 System.out.println("Boğa Burcu");
             } else if ((20 < day && month.equalsIgnoreCase("mart")) || (day < 21 && month.equalsIgnoreCase("nisan"))) {
                 System.out.println("Koç Burcu");
-            }
+            }else {
+            System.out.println("Gecerli secim yapiniz");
+        }
 
     }
 }
