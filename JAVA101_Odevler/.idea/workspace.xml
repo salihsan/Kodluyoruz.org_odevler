@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/CinZodyagi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/UcakBiletiHesapla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/kosulluifadeler/UcakBiletiHesapla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.UcakBiletiHesapla">
+  <component name="RunManager" selected="Application.CinZodyagi">
     <configuration name="BurcunuBul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.BurcunuBul" />
       <module name="JAVA101_Odevler" />
@@ -55,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HavaSicakliginaGoreEtkinlik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.HavaSicakliginaGoreEtkinlik" />
+    <configuration name="CinZodyagi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.CinZodyagi" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KullaniciGirisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.KullaniciGirisi" />
+    <configuration name="HavaSicakliginaGoreEtkinlik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.HavaSicakliginaGoreEtkinlik" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CinZodyagi" />
         <item itemvalue="Application.UcakBiletiHesapla" />
         <item itemvalue="Application.BurcunuBul" />
         <item itemvalue="Application.HavaSicakliginaGoreEtkinlik" />
         <item itemvalue="Application.SınıfıGecmeDurumu" />
-        <item itemvalue="Application.KullaniciGirisi" />
       </list>
     </recent_temporary>
   </component>
