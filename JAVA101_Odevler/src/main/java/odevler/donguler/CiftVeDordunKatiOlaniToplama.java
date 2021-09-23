@@ -9,13 +9,20 @@ public class CiftVeDordunKatiOlaniToplama {
         int n = scan.nextInt();
         int toplam=0;
 
-
-            for (int i=1;i<=n;i++) {
-                if (i % 2 == 0 && i % 4 == 0) {
-                    toplam += i;
+            do {
+                for (int i=1;i<=n; i++) {
+                    if (i % 2 == 0 && i % 4 == 0) {
+                        toplam += i;
+                    }
                 }
-            }
-            System.out.println(toplam);
+            }while (n%2==0);
+
+            System.out.println("Cift Ve 4 Bolunen Sayilarin Toplami : "+toplam);
+
+
+
+
+
 
     }
 }
