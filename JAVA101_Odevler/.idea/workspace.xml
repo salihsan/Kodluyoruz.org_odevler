@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/DortVeBesinKatlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/Kombinasyon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DortVeBesinKatlari">
+  <component name="RunManager" selected="Application.Kombinasyon">
     <configuration name="ArtikYil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.ArtikYil" />
       <module name="JAVA101_Odevler" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CinZodyagi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.kosulluifadeler.CinZodyagi" />
+    <configuration name="DortVeBesinKatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.DortVeBesinKatlari" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odevler.kosulluifadeler.*" />
+          <option name="PATTERN" value="odevler.donguler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DortVeBesinKatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.donguler.DortVeBesinKatlari" />
+    <configuration name="Kombinasyon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.Kombinasyon" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kombinasyon" />
         <item itemvalue="Application.DortVeBesinKatlari" />
         <item itemvalue="Application.CiftVeDordunKatiOlaniToplama" />
         <item itemvalue="Application.UcDordeBolunenOrtalama" />
         <item itemvalue="Application.ArtikYil" />
-        <item itemvalue="Application.CinZodyagi" />
       </list>
     </recent_temporary>
   </component>
