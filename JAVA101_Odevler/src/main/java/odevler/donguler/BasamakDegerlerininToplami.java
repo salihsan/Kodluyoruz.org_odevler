@@ -1,5 +1,7 @@
 package odevler.donguler;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BasamakDegerlerininToplami {
@@ -17,7 +19,6 @@ public class BasamakDegerlerininToplami {
                 adet++;
             }
         System.out.println(adet+" Basamakli Sayinin Rakamlar Toplami : "+rakamlarToplami);
-
 
     }
 
