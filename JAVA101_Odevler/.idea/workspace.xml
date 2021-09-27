@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/HarmonikSeri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/YildizElmasProgrami.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +41,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HarmonikSeri">
+  <component name="RunManager" selected="Application.YildizElmasProgrami">
     <configuration name="BasamakDegerlerininToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.donguler.BasamakDegerlerininToplami" />
-      <module name="JAVA101_Odevler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="odevler.donguler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DortVeBesinKatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.donguler.DortVeBesinKatlari" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YildizElmasProgrami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.YildizElmasProgrami" />
+      <module name="JAVA101_Odevler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.donguler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YildizElmasProgrami" />
         <item itemvalue="Application.HarmonikSeri" />
         <item itemvalue="Application.BasamakDegerlerininToplami" />
         <item itemvalue="Application.UsAlma" />
         <item itemvalue="Application.Kombinasyon" />
-        <item itemvalue="Application.DortVeBesinKatlari" />
       </list>
     </recent_temporary>
   </component>
