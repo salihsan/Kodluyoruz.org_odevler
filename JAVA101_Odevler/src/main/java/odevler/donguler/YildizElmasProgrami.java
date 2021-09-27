@@ -7,39 +7,25 @@ public class YildizElmasProgrami {
         Scanner scan = new Scanner(System.in);
         System.out.println("Bir Sayı Giriniz :");
         int n = scan.nextInt();
-
-        int i, j, space = 1;
-
-        space = n - 1;
-        for (j = 1; j<= n; j++)
-        {
-                for (i = 1; i<= space; i++)
-                {
-                    System.out.print(" ");
-                }
-            space--;
-                for (i = 1; i <= 2 * j - 1; i++)
-                {
-                    System.out.print("*");
-                }
-            System.out.println("");
-        }
-
-
-        space = 1;
-        for (j = 1; j<= n - 1; j++)
-        {
-            for (i = 1; i<= space; i++)
-            {
+        for (int i = 0; i <= n ; i++) {
+            for (int j = 0; j < (n - i); j++) {
                 System.out.print(" ");
             }
-            space++;
-            for (i = 1; i<= 2 * (n - j) - 1; i++)
-            {
+            for (int k = 1; k <= (2 * i + 1); k++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
+        for (int i = 0; i <= n ; i++) {
+            for (int j =0; j<=(i-1); j++) {
+                System.out.print(" ");
+            }
+            for (int k =(2 *(n-i)+1) ; k >0;k--) {
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
     }
 }
 
