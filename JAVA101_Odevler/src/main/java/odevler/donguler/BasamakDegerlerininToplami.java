@@ -19,7 +19,7 @@ public class BasamakDegerlerininToplami {
                 adet++;
             }
         System.out.println(adet+" Basamakli Sayinin Rakamlar Toplami : "+rakamlarToplami);
-
+    // Rakamlari toplami
     }
 
 }
