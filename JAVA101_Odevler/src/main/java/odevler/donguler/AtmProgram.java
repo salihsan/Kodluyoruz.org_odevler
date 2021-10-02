@@ -43,8 +43,6 @@ public class AtmProgram {
                         case  3:
                             System.out.println("Bakiyeniz : " + balance);
                         break;
-
-
                     }
                 } while (select != 4);
                 System.out.println("Tekrar görüşmek üzere.");
