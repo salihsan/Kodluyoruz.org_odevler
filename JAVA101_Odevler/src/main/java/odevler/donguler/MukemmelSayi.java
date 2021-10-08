@@ -13,7 +13,7 @@ public class MukemmelSayi {
                 toplam +=i;
             }
         }
-        System.out.println("Rakamalari Toplami = "+toplam);
+        System.out.println("Tam bolenler Toplami = "+toplam);
         if(n==toplam){
             System.out.println(n+" sayisi Mukemmel sayidir");
         }else{
