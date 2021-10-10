@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/YuzeKadarAsalSayilar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/FibonacciSerisi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/donguler/MukemmelSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/MukemmelSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/odevler/donguler/MukemmelSayi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/odevler/donguler/MukemmelSayi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/odevler/donguler/TersUcgen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/odevler/donguler/TersUcgen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +41,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.YuzeKadarAsalSayilar">
-    <configuration name="EbobEkok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.donguler.EbobEkok" />
+  <component name="RunManager" selected="Application.FibonacciSerisi">
+    <configuration name="FibonacciSerisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.FibonacciSerisi" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSerisi" />
         <item itemvalue="Application.YuzeKadarAsalSayilar" />
         <item itemvalue="Application.MukemmelSayi" />
         <item itemvalue="Application.TersUcgen" />
         <item itemvalue="Application.MaxMinDegeriBulanProgram" />
-        <item itemvalue="Application.EbobEkok" />
       </list>
     </recent_temporary>
   </component>
