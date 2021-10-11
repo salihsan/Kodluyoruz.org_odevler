@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/FibonacciSerisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/HackerRankSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FibonacciSerisi">
+  <component name="RunManager" selected="Application.HackerRankSeries">
     <configuration name="FibonacciSerisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.donguler.FibonacciSerisi" />
       <module name="JAVA101_Odevler" />
@@ -55,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMinDegeriBulanProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.donguler.MaxMinDegeriBulanProgram" />
+    <configuration name="HackerRankSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.HackerRankSeries" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HackerRankSeries" />
         <item itemvalue="Application.FibonacciSerisi" />
         <item itemvalue="Application.YuzeKadarAsalSayilar" />
         <item itemvalue="Application.MukemmelSayi" />
         <item itemvalue="Application.TersUcgen" />
-        <item itemvalue="Application.MaxMinDegeriBulanProgram" />
       </list>
     </recent_temporary>
   </component>
