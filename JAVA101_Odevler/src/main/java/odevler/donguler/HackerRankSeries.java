@@ -9,7 +9,7 @@ You are given  queries in the form of , , and . For each query, print the series
  and  values as a single line of  space-separated integers.
     * */
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+       Scanner scan = new Scanner(System.in);
         System.out.println("Sayi giriniz : ");
         int t = scan.nextInt();
         int s0=0;
@@ -33,5 +33,8 @@ You are given  queries in the form of , , and . For each query, print the series
         }
 
 
+
+
     }
+
 }
