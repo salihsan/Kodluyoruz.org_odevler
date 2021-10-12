@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/PalindromSayi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/odevler/donguler/HackerRankSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevler/donguler/HackerRankSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid1328.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid7040.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid7980.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/odevler/donguler/HackerRankSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/odevler/donguler/HackerRankSeries.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +40,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HackerRankSeries">
+  <component name="RunManager" selected="Application.PalindromSayi">
     <configuration name="FibonacciSerisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="odevler.donguler.FibonacciSerisi" />
       <module name="JAVA101_Odevler" />
@@ -81,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TersUcgen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="odevler.donguler.TersUcgen" />
+    <configuration name="PalindromSayi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odevler.donguler.PalindromSayi" />
       <module name="JAVA101_Odevler" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromSayi" />
         <item itemvalue="Application.HackerRankSeries" />
         <item itemvalue="Application.FibonacciSerisi" />
         <item itemvalue="Application.YuzeKadarAsalSayilar" />
         <item itemvalue="Application.MukemmelSayi" />
-        <item itemvalue="Application.TersUcgen" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +144,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
