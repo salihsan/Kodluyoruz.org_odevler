@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3f89d7-baa5-4f21-a849-d64181b7231f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/ogrenciBilgiSistemi/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/ogrenciBilgiSistemi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/ogrenciBilgiSistemi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/ogrenciBilgiSistemi/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/boksOyunu/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/boksOyunu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/odevler/siniflar/boksOyunu/Ring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/odevler/donguler/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
