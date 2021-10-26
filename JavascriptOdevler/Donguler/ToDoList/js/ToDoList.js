@@ -1,26 +1,36 @@
 function newElement() {
   let listele = document.querySelector(".list");
   let task = document.getElementById("task").value;
-  let yeniLi = document.createElement("li");
+  let yeniLi = document.createElement("LI");
   let textNode = document.createTextNode(task);
   yeniLi.appendChild(textNode);
   list.appendChild(yeniLi);
   document.getElementById("task").value = "";
 
   var span = document.createElement("SPAN");
+  span.classList.add(".spanstile");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   yeniLi.appendChild(span);
 
-
-
   yeniLi.addEventListener("click", function () {
     yeniLi.style.textDecoration = "line-through";
-  });
-  
+    yeniLi.style.backgroundColor = "#276678";
+    yeniLi.style.color = "white";
 
-  document.querySelector(".close").onclick = function () {
+    list.addEventListener(
+      "click",
+      function (e) {
+        if (e.target.tagName === "LI") {
+          e.target.classList.toggle("checked");
+        }
+      },
+      false
+    );
+  });
+
+  document.documentElement("txt").click = function () {
     const list = document.querySelector(".list");
     list.removeChild(list.lastElementChild);
   };
