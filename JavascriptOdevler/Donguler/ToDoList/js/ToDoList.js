@@ -8,7 +8,6 @@ function newElement() {
   document.getElementById("task").value = "";
 
   var span = document.createElement("SPAN");
-  span.classList.add(".spanstile");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
