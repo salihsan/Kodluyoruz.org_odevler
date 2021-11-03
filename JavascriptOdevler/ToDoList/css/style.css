@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+ol,ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-left: 0 rem !important;
 }
 
 ul li {
@@ -114,8 +115,4 @@ input {
   font-size: 20px;
   color: #f19;
 }
-.spanstile{
-background-color:blue;
-border:2px solid #f00;
 
-}

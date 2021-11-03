@@ -73,14 +73,27 @@ const menu = [
   },
 ];
 
-var menulist = [];
-async function menuData() {
-  const resp = await fetch("menu");
-  return await resp.json();
-}
-console.log(menuData());
+const buttons = document.querySelector('.buttons').value;
+const menuList = document.querySelector('.menuList');
+menuList.style.backgroundColor = "#999";
+menuList.style.borderRadius = "10px";
+menuList.innerHTML += `
+<div class="menuGoster">
+                    <div class="menu-items col-lg-6 col-sm-12">
+                        <img src=""
+                            alt="Tteokbokki" class="photo hoverZoomLink">
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h4>{menu.title}</h4>
+                                <h4 class="price">10.99</h4>
+                            </div>
+                            <div class="menu-text">
+                                {menu.desc}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+`;
 
-function setMenuList(data) {
-  var menulist = document.querySelector(".menuGoster");
-  var liste = (menulist.innerHTML += "");
-}
+
+
