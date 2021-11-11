@@ -1,133 +1,20 @@
-function newElement() {
-  let listele = document.querySelector(".list");
-  let task = document.getElementById("task").value;
-  let yeniLi = document.createElement("LI");
-  let textNode = document.createTextNode(task);
-
-  yeniLi.appendChild(textNode);
-  list.appendChild(yeniLi);
-  document.getElementById("task").value = "";
-
-  let close = document.querySelector(".close");
-
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  yeniLi.appendChild(span);
-
-  yeniLi.addEventListener("click", function (e) {
-    yeniLi.style.textDecoration = "line-through";
-    yeniLi.style.backgroundColor = "#276678";
-    yeniLi.style.color = "white";
-
-    if (e.target.tagName === "LI") {
-      e.target.classList.toggle("checked");
-    }
-    if (e.target.className === "close") {
-      let close = document.querySelector(".close");
-      let yeniLi = document.createElement("LI");
-      yeniLi.style.display = "none";
-    }
-  });
-}
+const input = document.querySelector("#task");
+const add = document.querySelector("#liveToastBtn");  
+const list = document.querySelector("#list");
+let taskListArray = [];
 
 
-fetch("https://jsonplaceholder.typicode.com/users")
-.then((response)=>response.json())
-  .then((json) => {
-    let al = document.querySelector("#al")
-    al.style.color = "blue";
-    al.style.fontSize = "3rem";
-    al.style.fontWeight = "bold";
-   
-  })
-  .catch((err) => console.log(err));
+loadedPage();
 
-  fetch("https://jsonplaceholder.typicode.com/comments")
-    .then((response) => response.json())
-    .then((json) => json.map((item) => {
-      for (var i = 0; i < json.length; i++) {
-        al.innerHTML = (item.email)
-      }
-    }))
-    .catch((err) => console.log(err));
+add.addEventListener("click", function newElement);
 
-
-// var myNodelist = document.getElementsByTagName("LI");
-// var i;
-// for (i = 0; i < myNodelist.length; i++) {
-//   var span = document.createElement("SPAN");
-//   var txt = document.createTextNode("\u00D7");
-//   span.className = "close";
-//   span.appendChild(txt);
-//   myNodelist[i].appendChild(span);
-// }
-
-// var close = document.getElementsByClassName("close");
-// var i;
-// for (i = 0; i < close.length; i++) {
-//   close[i].onclick = function () {
-//     var div = this.parentElement;
-//     div.style.display = "none";
-//   };
-// }
-
-// var list = document.querySelector("ul");
-// list.addEventListener(
-//   "click",
-//   function (ev) {
-//     if (ev.target.tagName === "LI") {
-//       ev.target.classList.toggle("checked");
-//     }
-//   },
-//   false
-// );
-
-// function newElement() {
-//   var li = document.createElement("li");
-//   var inputValue = document.getElementById("task").value;
-//   var t = document.createTextNode(inputValue);
-//   li.appendChild(t);
-//   if (inputValue === "" || inputValue.replace(/^\s+|\s+$/g, "").length == 0) {
-//     $(".error").toast("show");
-//   } else {
-//     $(".success").toast("show");
-//     document.getElementById("list").appendChild(li);
-//   }
-//   document.getElementById("task").value = "";
-
-//   var span = document.createElement("SPAN");
-//   var txt = document.createTextNode("\u00D7");
-//   span.className = "close";
-//   span.appendChild(txt);
-//   li.appendChild(span);
-
-//   for (i = 0; i < close.length; i++) {
-//     close[i].onclick = function () {
-//       var div = this.parentElement;
-//       div.style.display = "none";
-//     };
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add.addEventListener("click", function(e) {
+  
+  var list = document.createElement("li");
+  list.appendChild(document.createTextNode);
+  document.console.log(list);
+  
+})
 
 
 
